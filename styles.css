@@ -1,0 +1,354 @@
+/* # significa id 
+. significa clase */
+
+*{
+    margin:0;
+    border:0;
+    padding:0;
+  }
+  /* inicio,blog,contacto,sobre nosotros */
+  /*header*/
+  header{
+    width:100%;
+    position:fixed;
+    /* background:#868e96       */
+    background: rgba(32, 32, 32, 0.9);
+    /* background:rgba(1,1,1,0.5);  */
+  }
+  .primerboton{
+    color:white;
+    text-decoration-color: white;
+    /* background-color: rgba(100,190,256); */
+ 
+  }
+  .cambio:hover{
+    width:115px;
+    color: white;
+    background-color: gray;
+    border-color: white;
+  }
+
+  /**/
+  nav {
+    z-index:1;
+  }
+
+  p{
+     font-size:140%;
+  }
+  a{
+    text-align:center;
+    color:white;
+    text-decoration:none;
+  }
+  /*main*/
+  main{
+    width:100%;
+    height:2800px;
+
+  }
+  /*primera fila*/
+  .primera{
+    height:570px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* background-image:url("https://i.ibb.co/xLT7SW8/maso-en-el-centro.jpg"); */
+    background-image:url("https://i.ibb.co/bLs6W7z/maso-en-el-centro-2.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .primeraNo{
+    height:570px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://i.ibb.co/N3ndNhz/Abogado-Contactenos.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .primeraBl{
+    height:570px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://i.ibb.co/Khb5nXc/Abogado-Blog.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .primeraAr{
+    height:570px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("https://i.ibb.co/grY7NZ6/Abogado-Areas.jpg");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  /*segundo parrafo*/
+  .segunda{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:auto;
+    background:rgba(40,100,128,1);
+  }
+  .parrafo{
+    width:auto;
+    height:auto;
+    color:white;
+  }
+  .parrafo2{
+    width:auto;
+    height:auto;
+    color:white; 
+  }
+  /*tercer parrafo*/
+  .tercera{
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    items-align:center;
+    height:auto;
+    width:100%
+  }
+  .tarjeta{
+    margin:5px auto;
+    box-sizing:border-box;
+    background-size:cover;
+    background-repeat:no repeat;
+    background-position:center;
+    color:white;
+    text-align:center;
+    background-image:url('https://images.pexels.com/photos/959816/pexels-photo-959816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .red{  
+    background:rgba(228,10,50,0.7);
+    z-index:1;
+      width:100%;
+      height:100%;
+  }
+  .gray{
+    background:rgba(128,128,128,0.9);
+    z-index:1;
+    width:100%;
+    height:100%;
+  }
+  .blue{
+      background:rgba(100,190,256,0.7);
+    z-index:1;
+    width:100%;
+    height:100%;
+  }
+  img{
+    width:90px;
+    height:90px;
+  }
+  .centrado{
+    padding:15px;
+  }
+  /*cuarta fila*/
+  .cuarto{
+    text-align:center;
+    height:auto;
+    width:100%;
+  }
+  .texto{
+   color:rgba(128,128,128,1);
+    font-weight:5;
+    margin:2rem 8rem;
+    padding:20px;
+  }
+  .cinco{
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:start;
+    width:100%;
+    height:auto;
+  }
+  .cuadro{
+    text-align:center;
+    font-size:80%;
+    background-color:rgba(128,128,128,0.3);
+    width:50%;
+    padding:5px;
+    margin:10px auto;
+    border-radius:1rem;
+  }
+  .cuadro:hover{
+    background-color:rgba(25,120,128,0.8);
+  }
+  /*sexta fila*/
+  .seis{
+    display:flex;
+    width:100%;
+    height:auto;
+    background-image:url('https://i.ibb.co/Qv61bYG/ANTONIO.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .seisCo{
+    display:flex;
+    width:100%;
+    height:auto;
+    background-image:url('https://i.ibb.co/kXdcpCH/Abogado-Nosotros.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .black{
+    color:black;
+  }
+  .recuadro{
+    margin-top: 160px;
+    padding: 2rem;
+    font-weight:5;
+    font-family:'Monserrat',Arial;
+    text-align:center;
+    width:60%;
+    height:auto;
+    background:rgba(83, 82, 82, 0.9);
+    border-radius:2rem;
+  }
+  .completar{
+    margin:10px auto;
+    border-radius:0.5rem;
+    padding:10px;
+    width:45%;
+    height:2rem;
+    display:inline-block;
+  }
+  .mensaje{
+     margin:10px auto;
+    border-radius:0.5rem;
+    padding:10px;
+    width:90%;
+    height:100px;
+  }
+
+  .negro:hover{
+    width:25%;
+    height:52px;
+    background-color:rgba(25,12,12,0.5);
+  }
+  /*borde*/
+  .borde{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:no wrap;
+    width:100%;
+    height:150px;
+    background-color:rgba(52,52,52,1);
+  }
+  
+  /*siete ,mapa de google*/
+  iframe{
+    display:flex;
+    width:100%;
+    height:460px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  .white{
+    color:rgba(228,228,228,1);
+  }
+  .center{
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+  }
+  .etiqueta{
+    margin:20px auto;
+    padding:20px;
+    height:150px;
+  }
+  .achicar{
+    display:inline;
+    padding:1px;
+    width:auto;
+    height:auto;
+  }
+  
+  
+  /*media query*/
+  /*extra_small*/
+  @media (max-width:576px) and (min-width: 10px) {
+    .extra_small{
+     width:100%;
+    }
+    .nav{
+      display:none;
+    }
+    .right{
+    margin-left:40%;
+  }
+   }
+  /*Medium devices (tablets, 768px and up)*/
+  @media (max-width:768px) and (min-width: 577px){ 
+     .small{
+        width:75%;
+    }
+    .small2{
+      width:40%;
+    }
+    .nav{
+      display:none;
+    }
+     .right{
+    margin-left:50%;
+  }
+  }
+  /* Large devices (desktops, 992px and up)*/
+  @media (max-width:992px) and (min-width: 769px) { 
+     .table{
+      width:50%;
+    }
+    .table2{
+      width:45%;
+    }
+  }
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (max-width:1200px) and (min-width: 993px) {
+    .escritorio{
+      width:33%;
+    }
+    .escritorio2{
+      width:30%
+    }
+   }
+  @media (min-width: 1201px) {
+    .super_grande{
+     width:33%;
+    }
+    .super_grande2{
+      width:20%;
+    }
+  }
+  
+  .pointer{
+    cursor:pointer;
+  }
+  
+  .abajo{
+    background:rgba(50,50,50,1);
+    margin:0;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%
+  }
+  .abajo2{
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%
+  }
